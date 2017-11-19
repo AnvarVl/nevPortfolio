@@ -1,0 +1,237 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	background-image: url(../img/42-fon-dlya-sayta.png);
+	background-repeat: repeat;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+	font-family: "BenderLight";
+}
+.hidden {
+	display: none;
+}
+
+.parallax {
+	background-attachment: fixed;
+	background-position: 50% 0;
+	position: relative;
+}
+
+
+.header{
+	border: 5px solid #fff;
+	height: 570px;
+	margin-top: 80px;
+	padding: 120px 0 0 90px;
+	box-shadow: 0 0 22px rgba(0,0,0,1);
+}
+.header .header_left p {
+	line-height: 27px;
+	margin-top: 60px;
+	font-size: 18PX;
+	color: #cfcdcd;
+}
+.header .header_left ul {
+	list-style-type: none;
+	padding-left: 0;
+	margin-top: 70px;
+}
+.header .header_left ul li{
+	display: inline-block;
+	padding-right: 15px;
+}
+.header .header_left ul li a{
+	color: #777474;
+	transition: all .5s;
+}
+.header .header_left ul li a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+.header .header_right ul {
+	list-style-type: none;
+	padding-left: 0;
+	margin-top: 42px;
+}
+.header .header_right ul li{
+	display: inline-block;
+	padding-right: 60px;
+}
+.header .header_right ul img,
+.footer ul img {
+    opacity: .5;
+    transition: all .5s;
+}
+.header .header_right ul img:hover,
+.footer ul img:hover {
+    opacity: 1;
+}
+.bgi{
+	background-image: url(../img/wordpress.png);
+	background-repeat: no-repeat;
+	height: 285px;
+	margin-top: 9px;
+}
+.section_1 {
+	margin-top: 80px;
+}
+#wr-tabs .tabs:after{
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+}
+#wr-tabs .tabs .tab {
+	float: left;
+	cursor: pointer;
+	margin-left: 8%;
+	box-shadow: 0 0 22px rgba(0,0,0,1);
+	border: 5px solid aliceblue;
+	padding: 0px 80px;
+}
+#wr-tabs .tabs .tab:hover,
+#wr-tabs .tabs .tab.active{
+	transition: all .4s;
+	box-shadow: none;
+	background-color: #55555E;
+	color: #fff;
+}
+#wr-tabs .content{
+	border: 5px solid #fff;
+	height: 856px;
+	margin-top: 80px;
+	box-shadow: 0 0 22px rgba(0,0,0,1);
+}
+#wr-tabs .content .tab-cont{
+	display: none;
+}
+#wr-tabs .content .tab-cont.active{
+	display: block;
+}
+.content .tab-cont {
+	text-align: center;
+	margin-top: 64px;
+}
+.content .tab-cont .description{
+	margin-top: 0px;
+}
+.content .tab-cont h1{
+	font-size: 28px;
+	color: #fff;
+	line-height: 31px;
+	margin-top: 0;
+}
+.content .tab-cont p{
+	font-size: 20px;
+	color: #fff;
+}
+.content .tab-cont img {
+    width: 60%;
+}
+.section_2 ul {
+	list-style-type: none;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.section_2 ul li{
+	display: inline-block;
+	background-color: #fff;
+	width: 28%;
+	height: 112px;
+	margin: 15px;
+	opacity: 1;
+	transition: all .5s;
+}
+.section_2 ul li:hover{
+	opacity: .5;
+}
+.section_3 {
+	margin-top: 92px;
+}
+.section_3 .carousel img {
+	width: 59%;
+	height: auto;
+	border-radius: 90px;
+	height: 164px;
+}
+.section_3 .carousel ul {
+	list-style-type: none;
+	width: 80%;
+	padding: 0;
+}
+.section_3 .carousel li p {
+	color: #fff;
+	font-size: 16px;
+}
+.section_3 .carousel li h3{
+	color: #00BFC5;
+	font-family: 'Mon Amour One Medium', arial;
+	font-size: 21px;
+}
+.section_3 .owl-carousel {
+	padding: 0 28px;
+}
+.footer {
+    border: 5px solid #fff;
+    height: 570px;
+    margin: 80px 0;
+    padding: 68px 0 0 90px;
+    box-shadow: 0 0 22px rgba(0,0,0,1);
+    background-image: url(../img/wordpress.png);
+    background-repeat: no-repeat;
+    background-position: 94%;
+}
+.footer ul{
+	list-style: none;
+	padding: 0;
+}
+.footer ul li {
+    margin-bottom: 30px;;
+}
+.footer form h3 {
+    color: #fff;
+    margin-bottom: 3px;
+}
+.footer form .innn,
+.footer form textarea,
+.footer form .button {
+    background-color: #A3A3AC;
+    border: none;
+    border-radius: 3px;
+    padding: 4px;
+    width: 25%;
+    transition: all .5s;
+}
+.footer form .button{
+	margin-top: 15px;
+}
+.footer form .innn:hover,
+.footer form textarea:hover,
+.footer form .button:hover {
+    background-color: #DADAE3;
+    color: #000;
+}

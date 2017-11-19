@@ -1,0 +1,18 @@
+@font-face {
+	font-family: "BenderBold";
+	src: url("../fonts/BenderBold/BenderBold.eot");
+	src: url("../fonts/BenderBold/BenderBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/BenderBold/BenderBold.woff") format("woff"),
+	url("../fonts/BenderBold/BenderBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "BenderLight";
+	src: url("../fonts/BenderLight/BenderLight.eot");
+	src: url("../fonts/BenderLight/BenderLight.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/BenderLight/BenderLight.woff") format("woff"),
+	url("../fonts/BenderLight/BenderLight.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
